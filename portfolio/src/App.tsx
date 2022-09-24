@@ -4,6 +4,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import { Image, Container, Row, Col } from 'react-bootstrap';
 import { BsEnvelopeFill, BsGithub, BsLinkedin } from 'react-icons/bs';
+// import Info from './json/info';
 
 const App = () => {
   return (
@@ -50,6 +51,8 @@ const App = () => {
             </Container>
         </div>
         <div className="projects">
+          <p>Test</p>
+          {<div></div> }
           {/* <div className="project">
             <h3>Project Name</h3>
             <p>

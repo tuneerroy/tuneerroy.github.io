@@ -1,39 +1,53 @@
 {
-    "main": [
-        "Welcome to my portfolio! I'm a sophomore at the University of Pennsylvania studying Computer Science.",
-        "Currently, I work as a backend developer as part of Penn Labs where I write RESTful API for the Penn Mobile application, Penn's official student app. I also work as a Teacher Assistant for the Automata, Computability, and Complexity course at UPenn."
-    ],
     "projects": [
         {
             "name": "Penn Mobile",
             "timeline": "February 2022 - Present",
-            "description": "As part of Penn Labs, I work on the backend of the Penn Mobile application. Penn Mobile serves over 4000 monthly users and helps the Penn community with tehir day-to-day life at Penn. Some of the services the app offers includes booking study rooms, provoding analytics on their dining hall usage, information on laundry, and more. \n\nCurrently, I am spearheading the notifications system where I work with other Labs teams to help their products send push notifications to users' devices.",
-            "link": "https://github.com/pennlabs/penn-mobile",
-            "stack": ["Python, Django"]
+            "description": "As part of Penn Labs, I work on the backend of the Penn Mobile application. Penn Mobile serves over 8000 monthly users and helps the Penn community with their day-to-day life at Penn. Some of the services the app offers include booking study rooms, providing analytics on their dining hall usage, information on laundry, and more. \n\nCurrently, I am spearheading the notifications system where I work with other Labs teams to help their products send push notifications to users' devices.",
+            "imageName": "pennmobile.png",
+            "stack": [
+                "Python",
+                "Django"
+            ]
         },
         {
             "name": "Smart Contract Dashboard",
             "timeline": "Summer of 2022",
             "description": "Under the team of Professor Mayur Naik at the University of Pennsylvania, I worked as a research assistant to help analyze smart contracts on the Ethereum blockchain. My day-to-day work consisted of writing Python scripts that gathered data from the blockchain as well as building a website to automatically run fuzzing programs on smart contracts recently launched on the blockchain. The eventual dashboard created made it significantly easier for the research team to analyze new smart contracts and test the success of their fuzzing programs.",
-            "link": "",
-            "stack": ["React", "Express", "MongoDB", "TypeScript", "Python", "BigQuery"]
+            "imageName": "contract.png",
+            "stack": [
+                "React",
+                "Express",
+                "MongoDB",
+                "TypeScript",
+                "Python",
+                "BigQuery"
+            ]
         },
         {
             "name": "Perspecio",
             "timeline": "Summer of 2020",
             "description": "Perspecio was a fun 3D flappy-bird styled game I designed and implemented back when COVID ruined all my plans. The goal of the game was to hit targets coming toward you while controlling a ball that moved by accelerating toward the mouse position. I developed it using the Unity game engine and coded the game in C#. I also designed a leaderboard system to work with the WebGL version of the game in JavaScript, PHP, and MySQL.",
-            "link": "",
-            "stack": ["C#", "PHP", "JavaScript", "MySQL", "Unity"]
+            "imageName": "perspecio.png",
+            "stack": [
+                "C#",
+                "PHP",
+                "JavaScript",
+                "MySQL",
+                "Unity"
+            ]
         },
         {
             "name": "ACEs Assessment",
             "timeline": "Summer of 2019",
             "description": "The ACEs Assessment was the culmination of my work as a research assistant at Vanderbilt University where I worked on finding a technical solution toward Adverse Childhood Experiences, otherwise known as ACEs. The website, developed in PHP and MySQL, used Vanderbilt's Pediatric ACEs Algorithm to automate tailored responses to parents and reduce the risk of their child disciplining techniques creating ACEs.",
-            "link": "",
-            "stack": ["PHP", "MySQL", "HTML/CSS"]
+            "imageName": "aces.png",
+            "stack": [
+                "PHP",
+                "MySQL",
+                "HTML/CSS"
+            ]
         }
     ],
-    "skills": [
-
-    ]
+    "skills": []
 }

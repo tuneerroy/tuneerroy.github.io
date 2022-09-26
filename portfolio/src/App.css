@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  max-width: 100%;
+  overflow-x: scroll;
 }
 
 .App header {
@@ -62,7 +64,8 @@
 
 .App main #projects {
   font-size: 18px;
-  max-width: 1300px;
+  width: 1300px;
+  max-width: 100%;
 }
 
 .App main #projects .project {
@@ -118,5 +121,9 @@
 
   .App main #projects .project div div:nth-child(even) {
     text-align: center;
+  }
+
+  .App main #projects .project img {
+    width: 100%;
   }
 }

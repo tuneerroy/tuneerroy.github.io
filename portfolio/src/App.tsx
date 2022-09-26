@@ -15,7 +15,7 @@ const App = () => {
         <Projects />
       </main>
       <footer>
-        <p>Last Updated September 26th, 2022.</p>
+        <p>Last Updated September 25th, 2022.</p>
         <p>&copy; 2022 Tuneer Roy</p>
       </footer>
     </div>

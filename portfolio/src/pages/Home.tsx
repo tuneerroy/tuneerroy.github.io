@@ -1,6 +1,13 @@
-import { BsEnvelopeFill, BsGithub, BsLinkedin, BsFileEarmarkPersonFill } from 'react-icons/bs';
+import {
+    BsEnvelopeFill,
+    BsGithub,
+    BsLinkedin,
+    BsFileEarmarkPersonFill
+} from 'react-icons/bs';
 import { Image, Container, Row, Col, Tooltip } from 'react-bootstrap';
-import OverlayTrigger, { OverlayTriggerRenderProps } from 'react-bootstrap/OverlayTrigger';
+import OverlayTrigger, {
+    OverlayTriggerRenderProps
+} from 'react-bootstrap/OverlayTrigger';
 
 
 const Home = () => {
@@ -10,7 +17,11 @@ const Home = () => {
     }
     const PhraseLink: React.FC<PhraseLinkProps> = props => {
         return (
-            <a className="phrase-link" rel="noreferrer" target="_blank" href={props.href}>
+            <a
+                className="phrase-link"
+                rel="noreferrer"
+                target="_blank"
+                href={props.href}>
                 {props.children}
             </a>
         )
@@ -21,12 +32,14 @@ const Home = () => {
         children: React.ReactNode
     }
     const TooltipWrapper: React.FC<TooltipWrapperProps> = (props) => {
-        const children = props.children as unknown as ((props: OverlayTriggerRenderProps) => React.ReactNode);
+        const children = props.children as unknown as
+            ((props: OverlayTriggerRenderProps) => React.ReactNode);
+
         return (
-            <OverlayTrigger 
-            placement="bottom" 
-            delay={{ show: 100, hide: 200 }}
-            overlay={<Tooltip>{props.tip}</Tooltip>}>
+            <OverlayTrigger
+                placement="bottom"
+                delay={{ show: 100, hide: 200 }}
+                overlay={<Tooltip>{props.tip}</Tooltip>}>
                 {children}
             </OverlayTrigger>
         )
@@ -44,22 +57,32 @@ const Home = () => {
                             <h1>Hi, I'm Tuneer!</h1>
                             <div className="links">
                                 <TooltipWrapper tip="Email">
-                                    <a href="mailto:tuneer.roy12@gmail.com">
+                                    <a
+                                        href="mailto:tuneer.roy12@gmail.com">
                                         <BsEnvelopeFill />
                                     </a>
                                 </TooltipWrapper>
                                 <TooltipWrapper tip="GitHub">
-                                    <a rel="noreferrer" target="_blank" href="https://github.com/tuneerroy">
+                                    <a
+                                        rel="noreferrer"
+                                        target="_blank"
+                                        href="https://github.com/tuneerroy">
                                         <BsGithub />
                                     </a>
                                 </TooltipWrapper>
                                 <TooltipWrapper tip="LinkedIn">
-                                    <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/tuneer-roy-a792a11a4">
+                                    <a
+                                        rel="noreferrer"
+                                        target="_blank"
+                                        href="https://www.linkedin.com/in/tuneer-roy-a792a11a4">
                                         <BsLinkedin />
                                     </a>
                                 </TooltipWrapper>
                                 <TooltipWrapper tip="Resume">
-                                    <a rel="noreferrer" target="_blank" href="/Tuneer's%20Resume.pdf">
+                                    <a
+                                        rel="noreferrer"
+                                        target="_blank"
+                                        href="/Tuneer's%20Resume.pdf">
                                         <BsFileEarmarkPersonFill />
                                     </a>
                                 </TooltipWrapper>

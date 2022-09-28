@@ -4,7 +4,8 @@ import {
     BsLinkedin,
     BsFileEarmarkPersonFill
 } from 'react-icons/bs';
-import { Image, Container, Row, Col, Tooltip } from 'react-bootstrap';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { Container, Row, Col, Tooltip } from 'react-bootstrap';
 import OverlayTrigger, {
     OverlayTriggerRenderProps
 } from 'react-bootstrap/OverlayTrigger';
@@ -50,7 +51,12 @@ const Home = () => {
             <Container>
                 <Row>
                     <Col>
-                        <Image roundedCircle src="/images/profile.png" />
+                        <div className="vertical-align">
+                            <LazyLoadImage
+                                className='rounded-circle'
+                                effect={'blur'}
+                                src={'/images/profile.png'} />
+                        </div>
                     </Col>
                     <Col>
                         <div className="vertical-align">

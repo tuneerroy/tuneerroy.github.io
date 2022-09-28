@@ -1,4 +1,5 @@
 import { Image, Badge } from 'react-bootstrap';
+import { LazyLoadComponent, LazyLoadImage } from 'react-lazy-load-image-component';
 import { useWindowWidth } from '../hooks/WindowSize';
 import type { Project } from '../App';
 
@@ -13,10 +14,19 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
         display: boolean;
     }
     const ProjImg: React.FC<ProjImgProps> = props => (
+        // props.display ?
+        //     <LazyLoadImage
+        //         className='rounded-circle'
+        //         effect='blur'
+        //         src={`/images/projects/${props.name}`} /> :
+        //     <></>
         props.display ?
-            <Image
-                roundedCircle
-                fluid src={`/images/projects/${props.name}`} /> :
+            <LazyLoadComponent>
+                <Image
+                    roundedCircle
+                    fluid src={`/images/projects/${props.name}`} />
+            </LazyLoadComponent>
+            :
             <></>
     );
 

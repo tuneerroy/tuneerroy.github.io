@@ -38,10 +38,10 @@ const App = () => {
       </header>
       <main>
         <Home />
-        {data != undefined ? <Projects projects={data.projects} /> : null}
+        {data !== undefined ? <Projects projects={data.projects} /> : null}
       </main>
       <footer>
-        <p>Last Updated September 25th, 2022.</p>
+        <p>Last Updated September 28th, 2022.</p>
         <p>&copy; 2022 Tuneer Roy</p>
       </footer>
     </div>

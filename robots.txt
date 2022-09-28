@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Sitemap: https://tuneer-roy.com/sitemap.xml
+Sitemap: https://tuneer-roy.com/sitemaps/sitemap.xml
 Disallow:

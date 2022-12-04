@@ -128,6 +128,6 @@
     }
 
     .App main #projects .project img {
-        width: 100%;
+        max-width: 100%;
     }
 }

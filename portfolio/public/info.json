@@ -1,6 +1,18 @@
 {
     "projects": [
         {
+            "name": "Martian",
+            "timeline": "October 2022 - Present",
+            "description": "Martian is a startup focused on using NLP to create powerful tools in education. As a full-stack developer for Martian, I build features on the user interface and design RESTful API on the backend. Currently, I am focused on the LTI integration of our product so that other learning tools are easily able to use our product.",
+            "imageName": "martian.png",
+            "stack": [
+                "JavaScript",
+                "React",
+                "Express",
+                "MongoDB"
+            ]
+        },
+        {
             "name": "Penn Mobile",
             "timeline": "February 2022 - Present",
             "description": "As part of Penn Labs, I work on the backend of the Penn Mobile application. Penn Mobile serves over 8000 monthly users and helps the Penn community with their day-to-day life at Penn. Some of the services the app offers include booking study rooms, providing analytics on their dining hall usage, information on laundry, and more. \n\nCurrently, I am spearheading the notifications system where I work with other Labs teams to help their products send push notifications to users' devices.",

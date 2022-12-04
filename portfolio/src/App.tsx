@@ -1,25 +1,25 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { useEffect, useState } from 'react';
-import './App.css';
-import NavBar from './components/NavBar';
-import Home from './pages/Home';
-import Projects from './pages/Projects';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { useEffect, useState } from 'react'
+import './App.css'
+import NavBar from './components/NavBar'
+import Home from './pages/Home'
+import Projects from './pages/Projects'
 
 export type Data = {
-    projects: Project[];
-    skills: string[];
+    projects: Project[]
+    skills: string[]
 }
 
 export type Project = {
-    name: string;
-    timeline: string;
-    description: string;
-    imageName: string;
-    stack: string[];
+    name: string
+    timeline: string
+    description: string
+    imageName: string
+    stack: string[]
 }
 
 const App = () => {
-    const [data, setData] = useState<undefined | Data>();
+    const [data, setData] = useState<undefined | Data>()
     useEffect(() => {
         fetch('info.json', {
             headers: {
@@ -28,7 +28,7 @@ const App = () => {
             }
         })
             .then(res => res.json())
-            .then(data => setData(data));
+            .then(data => setData(data))
     }, [])
 
     return (
@@ -41,11 +41,11 @@ const App = () => {
                 {data !== undefined ? <Projects projects={data.projects} /> : null}
             </main>
             <footer>
-                <p>Last Updated September 28th, 2022.</p>
+                <p>Last Updated December 4th, 2022.</p>
                 <p>&copy; 2022 Tuneer Roy</p>
             </footer>
         </div>
-    );
+    )
 }
 
-export default App;
+export default App

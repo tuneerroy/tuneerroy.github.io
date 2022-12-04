@@ -3,12 +3,12 @@ import {
     BsGithub,
     BsLinkedin,
     BsFileEarmarkPersonFill
-} from 'react-icons/bs';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import { Container, Row, Col, Tooltip } from 'react-bootstrap';
+} from 'react-icons/bs'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import { Container, Row, Col, Tooltip } from 'react-bootstrap'
 import OverlayTrigger, {
     OverlayTriggerRenderProps
-} from 'react-bootstrap/OverlayTrigger';
+} from 'react-bootstrap/OverlayTrigger'
 
 
 const Home = () => {
@@ -34,7 +34,7 @@ const Home = () => {
     }
     const TooltipWrapper: React.FC<TooltipWrapperProps> = (props) => {
         const children = props.children as unknown as
-            ((props: OverlayTriggerRenderProps) => React.ReactNode);
+            ((props: OverlayTriggerRenderProps) => React.ReactNode)
 
         return (
             <OverlayTrigger
@@ -98,7 +98,7 @@ const Home = () => {
                 </Row>
                 <Row>
                     <p>
-                        Welcome to my portfolio! I'm a sophomore at the University of Pennsylvania studying <PhraseLink href="https://www.cis.upenn.edu/">Computer Science</PhraseLink>.
+                        Welcome to my portfolio! I'm a sophomore at the University of Pennsylvania studying <PhraseLink href="https://www.cis.upenn.edu/">Computer Science</PhraseLink> with an expected graduation in May 2024.
                     </p>
                     <p>
                         Currently, I work as a backend developer as part of <PhraseLink href="https://pennlabs.org/">Penn Labs</PhraseLink> where I write RESTful API for the <PhraseLink href="https://pennlabs.org/products/penn-mobile">Penn Mobile</PhraseLink> application, Penn's official student app. I am also a Teaching Assistant for the <PhraseLink href="https://catalog.upenn.edu/courses/cis/#:~:text=CIS%202620">Automata, Computability, and Complexity</PhraseLink> course at UPenn. Below, you can find most recent projects.
@@ -109,4 +109,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Home

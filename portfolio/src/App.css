@@ -83,13 +83,13 @@
     margin: 0 5px;
 }
 
-.App main #projects .project div div:nth-child(odd) {
+/* .App main #projects .project div div:nth-child(odd) {
     text-align: left;
 }
 
 .App main #projects .project div div:nth-child(even) {
     text-align: right;
-}
+} */
 
 .App main #projects .project div div .badges {
     text-align: center;

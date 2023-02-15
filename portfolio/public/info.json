@@ -23,6 +23,18 @@
             ]
         },
         {
+            "name": "Whitespace Compiler",
+            "timeline": "November 2022 - December 2022",
+            "description": "For the final project of my functional programming class, I worked in a team of 3 to build a compiler in Haskell for the esoteric language called Whitespace. It worked by first parsing the Whitespace syntax into our internal data type representation of the language, and then translating that language into ARM Assembly. My team and I extensively tested the accuracy of the code using property-based testing (QuickCheck) and unit tests.",
+            "imageName": "whitespace.png",
+            "stack": [
+                "Haskell",
+                "QuickCheck",
+                "ARM Assembly",
+                "TypeScript"
+            ]
+        },
+        {
             "name": "Smart Contract Dashboard",
             "timeline": "Summer of 2022",
             "description": "Under the team of Professor Mayur Naik at the University of Pennsylvania, I worked as a research assistant to help analyze smart contracts on the Ethereum blockchain. My day-to-day work consisted of writing Python scripts that gathered data from the blockchain as well as building a website to automatically run fuzzing programs on smart contracts recently launched on the blockchain. The eventual dashboard created made it significantly easier for the research team to analyze new smart contracts and test the success of their fuzzing programs.",

@@ -58,7 +58,7 @@ const PersonalLinks = () => {
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="/Tuneer's%20Resume.pdf">
+                        href="/tuneer_resume.pdf">
                         <BsFileEarmarkPersonFill />
                     </a>
                 </TooltipWrapper>

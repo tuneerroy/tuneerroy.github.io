@@ -37,10 +37,7 @@ const Home = () => {
         </Row>
         <Row>
           <p>
-            Welcome to my portfolio! I'm a student at the University of Pennsylvania studying <PhraseLink href="https://www.cis.upenn.edu/">Computer Science</PhraseLink>.
-          </p>
-          <p>
-            Currently, I work as a Team Lead as part of <PhraseLink href="https://pennlabs.org/">Penn Labs</PhraseLink> where I write RESTful API for the <PhraseLink href="https://pennlabs.org/products/penn-mobile">Penn Mobile</PhraseLink> application, Penn's official student app. I also work part time for a cool company called <PhraseLink href="https://learn.withmartian.com/">Martian</PhraseLink>, a startup using NLP to design powerful EdTech tools! Below, you can find details on most recent projects.
+            Welcome to my portfolio! I'm a student at the University of Pennsylvania studying <PhraseLink href="https://www.cis.upenn.edu/">Computer Science</PhraseLink>. Below, you can find details on most recent projects.
           </p>
         </Row>
       </Container>

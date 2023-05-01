@@ -11,18 +11,23 @@
 
 .App header .navbar {
   margin: auto;
-  padding: 20px 50px;
+  padding: 10px 50px;
   max-width: 800px;
   overflow-x: hidden;
 }
 
 .App main .section {
   margin: 10px auto;
-  padding: 20px 50px;
+  padding: 10px 50px;
 }
 
 .App main #home {
   max-width: 800px;
+}
+
+.App main #home .container .row:first-child {
+  max-width: 450px;
+  margin: auto;
 }
 
 .App main #home h1 {
@@ -53,23 +58,23 @@
 }
 
 .App main #home h1 {
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .App main #home p {
-  font-size: 23px;
-  margin: 10px auto;
+  font-size: 22px;
+  margin: 0 auto;
   text-align: center;
 }
 
 .App main #projects {
-  width: 1100px;
+  width: 1000px;
   max-width: 100%;
 }
 
 .App main #projects .project {
   font-size: 20px;
-  margin: 20px auto 70px auto;
+  margin: 0 auto 50px auto;
 }
 
 .App main #projects .project div {
@@ -83,20 +88,12 @@
   margin: 0 5px;
 }
 
-/* .App main #projects .project div div:nth-child(odd) {
-    text-align: left;
-}
-
-.App main #projects .project div div:nth-child(even) {
-    text-align: right;
-} */
-
 .App main #projects .project div div .badges {
   text-align: center;
 }
 
 .App main #projects .project img {
-  max-width: 50%;
+  max-width: 30%;
   height: 100%;
   padding-right: 10px;
 }

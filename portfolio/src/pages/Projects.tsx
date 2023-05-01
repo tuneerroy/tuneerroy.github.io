@@ -28,17 +28,14 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
   const narrowWidth = 900
   const windowWidth: undefined | number = useWindowWidth()
   const isWindowNarrow = (): boolean => {
-    if (windowWidth === undefined) {
-      return false
-    }
-    return windowWidth <= narrowWidth
+    return windowWidth !== undefined && windowWidth <= narrowWidth
   }
 
   return (
     <div className="section" id="projects">
       {projects.map((project, index) => (
         <div key={index} className="project">
-          <h3><strong>{project.name}</strong></h3>
+          <h4><strong>{project.name}</strong></h4>
           <h5>{project.timeline}</h5>
           <div>
             <ProjImg
@@ -48,7 +45,7 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
               <p>{project.description}</p>
               <div className="badges">
                 {project.stack.map((tool, i) => (
-                  <Badge key={i} bg="info" text="light">
+                  <Badge key={i} text="light">
                     {tool}
                   </Badge>
                 ))}

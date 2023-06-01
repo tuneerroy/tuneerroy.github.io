@@ -37,7 +37,7 @@ const Home = () => {
         </Row>
         <Row>
           <p>
-            Welcome to my portfolio! I'm a student at the University of Pennsylvania studying <PhraseLink href="https://www.cis.upenn.edu/">Computer Science</PhraseLink>. Below, you can find details on most recent projects.
+            Welcome to my portfolio! I'm a rising junior at the University of Pennsylvania with an intended BSE and MSE in <PhraseLink href="https://www.cis.upenn.edu/">Computer Science</PhraseLink>. Below, you can find details on my most recent projects.
           </p>
         </Row>
       </Container>

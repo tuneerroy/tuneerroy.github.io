@@ -23,6 +23,18 @@
       ]
     },
     {
+      "name": "GPT Code Critic",
+      "timeline": "April 2023 - May 2023",
+      "description": "GPT Code Critic is an action published on the GitHub marketplace that runs GPT 3.5 to find any bugs in code that is pushed to the main branch. Originally developed with the analysis happening on a separate server spun up using Docker and Kubernetes, it now does all the analysis on GitHub's servers.",
+      "imageName": "code-critic.png",
+      "stack": [
+        "CI/CD",
+        "GitHub Actions",
+        "Kubernetes",
+        "Docker"
+      ]
+    },
+    {
       "name": "PennOS",
       "timeline": "February 2023 - April 2023",
       "description": "PennOS is a simple operating system I built as part of a team 5 for my Operating Systems class. It is built in C and is based on the Linux kernel. It supports priority scheduling, foreground/background processes, stdin/stdout redirections, job control, reading and writing to files, creating and deleting files, and more.",

@@ -41,7 +41,7 @@ const App = () => {
         {data !== undefined ? <Projects projects={data.projects} /> : null}
       </main>
       <footer>
-        <p>Last Updated May 1st, 2023.</p>
+        <p>Last Updated June 1st, 2023.</p>
         <p>&copy; 2023 Tuneer Roy</p>
       </footer>
     </div>

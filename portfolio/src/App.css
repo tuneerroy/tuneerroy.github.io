@@ -94,7 +94,6 @@
 
 .App main #projects .project img {
   max-width: 30%;
-  height: 100%;
   padding-right: 10px;
 }
 
@@ -125,6 +124,7 @@
   }
 
   .App main #projects .project img {
-    max-width: 100%;
+    max-width: 70%;
+    width: 100%;
   }
 }

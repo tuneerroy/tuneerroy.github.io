@@ -3,7 +3,7 @@
     {
       "name": "Penn Mobile",
       "timeline": "February 2022 - Present",
-      "description": "As part of Penn Labs, I work as Team Lead for the Backend Team of the Penn Mobile application. Penn Mobile serves over 10,000 monthly users and helps the Penn community with their day-to-day life at Penn. Some of the services the app offers include booking study rooms, providing analytics on their dining hall usage, information on laundry, and more.",
+      "description": "As part of Penn Labs, I work as Team Lead for the Backend Team of the Penn Mobile application. Penn Mobile serves over 10,000 monthly users and helps the Penn community with their day-to-day life at Penn. Some of the services the app offers include booking study rooms, providing analytics on their dining hall usage, information on laundry, and more. One of the key features I have built for the app is a notification system that allows other Penn Labs products to notify users via the app.",
       "imageName": "pennmobile.png",
       "stack": [
         "Python",
@@ -13,10 +13,10 @@
     {
       "name": "Martian",
       "timeline": "October 2022 - Present",
-      "description": "Martian is a startup focused on using NLP to create powerful tools in education. As a full-stack developer for Martian, I build features on the user interface and design RESTful API on the backend. Currently, I am focused on the LTI integration of our product so that other learning tools are easily able to use our product.",
+      "description": "Martian is a startup founded by a group of AI researchers deticated to making machines better at reasoning. As an intern for Martian, I built features on the user interface and designed RESTful API on the backend for one of their EdTech tools. I also handled the LTI integration of the product so that other learning tools like Canvas were able to easily connect with it. Now, I am helping build LLM models using the Transformer architecture for a couple of problems like code generation, PII redaction, and more.",
       "imageName": "martian.png",
       "stack": [
-        "JavaScript",
+        "PyTorch",
         "React",
         "Express",
         "MongoDB"
@@ -75,9 +75,9 @@
       ]
     },
     {
-      "name": "Whitespace Compiler",
+      "name": "Esoteric Language Compiler",
       "timeline": "November 2022 - December 2022",
-      "description": "As part of a team of 3, I created a compiler in Haskell for an esoteric language called Whitespace. It worked by first parsing the Whitespace syntax into our internal data type representation of the language, and then translating that language into ARM Assembly. My team and I extensively tested the accuracy of the code using property-based testing (QuickCheck) and unit tests.",
+      "description": "As part of a team of 3, I created compilers for the esoteric languages Whitespace and Brainfuck using Haskell. It works by first parsing the given esoteric language into a generic abstract language syntax that we created, and then translating that language into ARM Assembly. My team and I extensively tested the accuracy of the compilers by writing corresponding interpreters for the languages and using property-based testing with QuickCheck.",
       "imageName": "whitespace.png",
       "stack": [
         "Haskell",

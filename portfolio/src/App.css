@@ -73,7 +73,7 @@
 }
 
 .App main #projects .project {
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 auto 50px auto;
 }
 
@@ -86,6 +86,8 @@
 .App main #projects .project div div {
   display: block;
   margin: 0 5px;
+  text-align: left;
+  line-height: 1.6;
 }
 
 .App main #projects .project div div .badges {
@@ -93,7 +95,7 @@
 }
 
 .App main #projects .project img {
-  max-width: 30%;
+  max-width: 35%;
   padding-right: 10px;
 }
 
@@ -113,14 +115,6 @@
 
   .App main #projects .project div div {
     margin-top: 20px;
-  }
-
-  .App main #projects .project div div:nth-child(odd) {
-    text-align: center;
-  }
-
-  .App main #projects .project div div:nth-child(even) {
-    text-align: center;
   }
 
   .App main #projects .project img {

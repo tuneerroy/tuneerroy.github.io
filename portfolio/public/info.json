@@ -1,129 +1,128 @@
 {
-  "projects": [
-    {
-      "name": "Penn Mobile",
-      "timeline": "February 2022 - Present",
-      "description": "As part of Penn Labs, I work as Team Lead for the Backend Team of the Penn Mobile application. Penn Mobile serves over 10,000 monthly users and helps the Penn community with their day-to-day life at Penn. Some of the services the app offers include booking study rooms, providing analytics on their dining hall usage, information on laundry, and more. One of the key features I have built for the app is a notification system that allows other Penn Labs products to notify users via the app.",
-      "imageName": "pennmobile.png",
-      "stack": [
-        "Python",
-        "Django"
-      ]
-    },
-    {
-      "name": "Martian",
-      "timeline": "October 2022 - Present",
-      "description": "Martian is a startup founded by a group of AI researchers deticated to making machines better at reasoning. As an intern for Martian, I built features on the user interface and designed RESTful API on the backend for one of their EdTech tools. I also handled the LTI integration of the product so that other learning tools like Canvas were able to easily connect with it. Now, I am helping build LLM models using the Transformer architecture for a couple of problems like code generation, PII redaction, and more.",
-      "imageName": "martian.png",
-      "stack": [
-        "PyTorch",
-        "React",
-        "Express",
-        "MongoDB"
-      ]
-    },
-    {
-      "name": "GPT Code Critic",
-      "timeline": "April 2023 - May 2023",
-      "description": "GPT Code Critic is an action published on the GitHub marketplace that runs GPT 3.5 to find any bugs in code that is pushed to the main branch. Originally developed with the analysis happening on a separate server spun up using Docker and Kubernetes, it now does all the analysis on GitHub's servers.",
-      "imageName": "code-critic.png",
-      "stack": [
-        "CI/CD",
-        "GitHub Actions",
-        "Kubernetes",
-        "Docker"
-      ]
-    },
-    {
-      "name": "PennOS",
-      "timeline": "February 2023 - April 2023",
-      "description": "PennOS is a simple operating system I built as part of a team 5 for my Operating Systems class. It is built in C and is based on the Linux kernel. It supports priority scheduling, foreground/background processes, stdin/stdout redirections, job control, reading and writing to files, creating and deleting files, and more.",
-      "imageName": "pennos.png",
-      "stack": [
-        "C",
-        "Linux",
-        "Kernel",
-        "File System"
-      ]
-    },
-    {
-      "name": "Forecasting Stock Prices",
-      "timeline": "February 2023 - April 2023",
-      "description": "As part of a team of 3, I worked on a project to predict stock prices using machine learning. We tried out a variety of models including random forests and CNNs before settling on an ensemble of an ARIMA model and a Transformer to predict future stock prices based on a variable amount of input data.",
-      "imageName": "stocks.png",
-      "stack": [
-        "Python",
-        "PyTorch",
-        "Matplotlib",
-        "Pandas",
-        "NumPy",
-        "Scikit-Learn"
-      ]
-    },
-    {
-      "name": "Book Nexus",
-      "timeline": "February 2023 - April 2023",
-      "description": "Book Nexus is a web application that allows users to explore different books and authors. It involved creating complex recommendation algorithms based on user favorites and optimizing those queries to be as fast as possible. I also set up a CI/CD pipeline using GitHub Actions to automatically deploy our application whenever its repository was pushed to.",
-      "imageName": "booknexus.png",
-      "stack": [
-        "JavaScript",
-        "React",
-        "Express",
-        "MySQL",
-        "MongoDB",
-        "GitHub Actions"
-      ]
-    },
-    {
-      "name": "Esoteric Language Compiler",
-      "timeline": "November 2022 - December 2022",
-      "description": "As part of a team of 3, I created compilers for the esoteric languages Whitespace and Brainfuck using Haskell. It works by first parsing the given esoteric language into a generic abstract language syntax that we created, and then translating that language into ARM Assembly. My team and I extensively tested the accuracy of the compilers by writing corresponding interpreters for the languages and using property-based testing with QuickCheck.",
-      "imageName": "whitespace.png",
-      "stack": [
-        "Haskell",
-        "QuickCheck",
-        "ARM Assembly",
-        "TypeScript"
-      ]
-    },
-    {
-      "name": "Smart Contract Dashboard",
-      "timeline": "May 2022 - August 2022",
-      "description": "This was a website that I built as part of my job as a research assistant in the summer of 2023. It served as a dashboard that allowed the researchers to watch certain Ethereum smart contracts and automatically run fuzzing programs on recently launched contracts.",
-      "imageName": "contract.png",
-      "stack": [
-        "React",
-        "Express",
-        "MongoDB",
-        "TypeScript",
-        "Python",
-        "BigQuery"
-      ]
-    },
-    {
-      "name": "Perspecio",
-      "timeline": "May 2020 - July 2020",
-      "description": "Perspecio was a fun 3D flappy-bird styled game I designed back when COVID ruined all my plans. I developed it using the Unity game engine and coded the game in C#. I also designed a leaderboard system to work with the WebGL version of the game in JavaScript, PHP, and MySQL.",
-      "imageName": "perspecio.png",
-      "stack": [
-        "C#",
-        "PHP",
-        "JavaScript",
-        "MySQL",
-        "Unity"
-      ]
-    },
-    {
-      "name": "ACEs Assessment",
-      "timeline": "June 2019 - August 2019",
-      "description": "The ACEs Assessment website is a tool I developed that used used Vanderbilt's Pediatric ACEs Algorithm to automate tailored responses to parents and reduce the risk of their child disciplining techniques creating Adverse Childhood Experiences (ACEs).",
-      "imageName": "aces.png",
-      "stack": [
-        "PHP",
-        "MySQL",
-        "HTML/CSS"
-      ]
-    }
-  ],
-  "skills": []
+    "projects": [
+        {
+            "name": "Penn Mobile",
+            "timeline": "February 2022 - Present",
+            "description": "As part of Penn Labs, I work as Team Lead for the Backend Team of the Penn Mobile application. Penn Mobile serves over 10,000 monthly users and helps the Penn community with their day-to-day life at Penn. Some of the services the app offers include booking study rooms, providing analytics on their dining hall usage, information on laundry, and more. One of the key features I have built for the app is a notification system that allows other Penn Labs products to notify users via the app.",
+            "imageName": "pennmobile.png",
+            "stack": [
+                "Python",
+                "Django"
+            ]
+        },
+        {
+            "name": "Martian",
+            "timeline": "October 2022 - Present",
+            "description": "Martian is a startup founded by a group of AI researchers deticated to making machines better at reasoning. As an intern for Martian, I built features on the user interface and designed RESTful API on the backend for one of their EdTech tools. I also handled the LTI integration of the product so that other learning tools like Canvas were able to easily connect with it. Now, I am helping build LLM models using the Transformer architecture for a couple of problems like code generation, PII redaction, and more.",
+            "imageName": "martian.png",
+            "stack": [
+                "PyTorch",
+                "React",
+                "Express",
+                "MongoDB"
+            ]
+        },
+        {
+            "name": "GPT Code Critic",
+            "timeline": "April 2023 - May 2023",
+            "description": "GPT Code Critic is an action published on the GitHub marketplace that runs GPT 3.5 to find any bugs in code that is pushed to the main branch. Originally developed with the analysis happening on a separate server spun up using Docker and Kubernetes, it now does all the analysis on GitHub's servers.",
+            "imageName": "code-critic.png",
+            "stack": [
+                "CI/CD",
+                "GitHub Actions",
+                "Kubernetes",
+                "Docker"
+            ]
+        },
+        {
+            "name": "PennOS",
+            "timeline": "February 2023 - April 2023",
+            "description": "PennOS is a simple operating system I built as part of a team 5 for my Operating Systems class. It is built in C and is based on the Linux kernel. It supports priority scheduling, foreground/background processes, stdin/stdout redirections, job control, reading and writing to files, creating and deleting files, and more.",
+            "imageName": "pennos.png",
+            "stack": [
+                "C",
+                "Linux",
+                "Kernel",
+                "File System"
+            ]
+        },
+        {
+            "name": "Forecasting Stock Prices",
+            "timeline": "February 2023 - April 2023",
+            "description": "As part of a team of 3, I worked on a project to predict stock prices using machine learning. We tried out a variety of models including random forests and CNNs before settling on an ensemble of an ARIMA model and a Transformer to predict future stock prices based on a variable amount of input data.",
+            "imageName": "stocks.png",
+            "stack": [
+                "Python",
+                "PyTorch",
+                "Matplotlib",
+                "Pandas",
+                "NumPy",
+                "Scikit-Learn"
+            ]
+        },
+        {
+            "name": "Book Nexus",
+            "timeline": "February 2023 - April 2023",
+            "description": "Book Nexus is a web application that allows users to explore different books and authors. It involved creating complex recommendation algorithms based on user favorites and optimizing those queries to be as fast as possible. I also set up a CI/CD pipeline using GitHub Actions to automatically deploy our application whenever its repository was pushed to.",
+            "imageName": "booknexus.png",
+            "stack": [
+                "JavaScript",
+                "React",
+                "Express",
+                "MySQL",
+                "MongoDB",
+                "GitHub Actions"
+            ]
+        },
+        {
+            "name": "Esoteric Language Compiler",
+            "timeline": "November 2022 - December 2022",
+            "description": "As part of a team of 3, I created compilers for the esoteric languages Whitespace and Brainfuck using Haskell. It works by first parsing the given esoteric language into a generic abstract language syntax that we created, and then translating that language into ARM Assembly. My team and I extensively tested the accuracy of the compilers by writing corresponding interpreters for the languages and using property-based testing with QuickCheck.",
+            "imageName": "whitespace.png",
+            "stack": [
+                "Haskell",
+                "QuickCheck",
+                "ARM Assembly"
+            ]
+        },
+        {
+            "name": "Smart Contract Dashboard",
+            "timeline": "May 2022 - August 2022",
+            "description": "This was a website that I built as part of my job as a research assistant in the summer of 2023. It served as a dashboard that allowed the researchers to watch certain Ethereum smart contracts and automatically run fuzzing programs on recently launched contracts.",
+            "imageName": "contract.png",
+            "stack": [
+                "React",
+                "Express",
+                "MongoDB",
+                "TypeScript",
+                "Python",
+                "BigQuery"
+            ]
+        },
+        {
+            "name": "Perspecio",
+            "timeline": "May 2020 - July 2020",
+            "description": "Perspecio was a fun 3D flappy-bird styled game I designed back when COVID ruined all my plans. I developed it using the Unity game engine and coded the game in C#. I also designed a leaderboard system to work with the WebGL version of the game in JavaScript, PHP, and MySQL.",
+            "imageName": "perspecio.png",
+            "stack": [
+                "C#",
+                "PHP",
+                "JavaScript",
+                "MySQL",
+                "Unity"
+            ]
+        },
+        {
+            "name": "ACEs Assessment",
+            "timeline": "June 2019 - August 2019",
+            "description": "The ACEs Assessment website is a tool I developed that used used Vanderbilt's Pediatric ACEs Algorithm to automate tailored responses to parents and reduce the risk of their child disciplining techniques creating Adverse Childhood Experiences (ACEs).",
+            "imageName": "aces.png",
+            "stack": [
+                "PHP",
+                "MySQL",
+                "HTML/CSS"
+            ]
+        }
+    ],
+    "skills": []
 }

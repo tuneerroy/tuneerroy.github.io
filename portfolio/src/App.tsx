@@ -33,9 +33,6 @@ const App = () => {
 
     return (
         <div className="App">
-            <header>
-                <NavBar />
-            </header>
             <main>
                 <Home />
                 {data !== undefined ? <Projects projects={data.projects} /> : null}

@@ -13,12 +13,14 @@
         {
             "name": "Martian",
             "timeline": "October 2022 - Present",
-            "description": "Martian is a startup founded by a group of AI researchers deticated to making machines better at reasoning. As an intern for Martian, I built features on the user interface and designed RESTful API on the backend for one of their EdTech tools. I also handled the LTI integration of the product so that other learning tools like Canvas were able to easily connect with it. Now, I am helping build LLM models using the Transformer architecture for a couple of problems like code generation, PII redaction, and more.",
+            "description": "Martian is a startup founded by a group of AI researchers dedicated to making machines better at reasoning. In the beginning of my internship for Martian, I built features on the user interface and designed RESTful API on the backend for one of their EdTech tools. Most recently, I have been working on their core product: a model router, including building the entire backend for the product using FastAPI in a single weekend. I also developed the Python and Node.js packages for the router to enable developers to easily integrate the product into their codebases. My work has also involved building LLM models using the Transformer architecture for problems like code generation, PII redaction, and more.",
             "imageName": "martian.png",
             "stack": [
                 "PyTorch",
                 "React",
                 "Express",
+                "FastAPI",
+                "Node.js",
                 "MongoDB"
             ]
         },
